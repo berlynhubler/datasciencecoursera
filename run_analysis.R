@@ -49,5 +49,5 @@ new_data$Activity.Type <- ifelse(new_data$ACTIVITY == 1,"WALKING", ifelse(new_da
 
 # Average of each variable for each subject and activity
 
-
+# Save final tidy data set as a .txt file
                                  
