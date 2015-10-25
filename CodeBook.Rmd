@@ -1,0 +1,39 @@
+---
+title: "CodeBook"
+author: "BHubler"
+date: "October 24, 2015"
+output: html_document
+---
+
+This is an R Markdown document describing the data used for the Getting & Cleaning Data course project.
+
+# Label Descriptions
+
+
+### ACTIVITY
+
+Describes the activity of each subject.
+
+1 WALKING
+
+2 WALKING_UPSTAIRS
+
+3 WALKING_DOWNSTAIRS
+
+4 SITTING
+
+5 STANDING
+
+6 LAYING
+
+### SUBJECT
+
+Each row identifies the subject who performed the activity for each window sample. Its range is 1-30. 
+
+
+
+```{r, echo=FALSE}
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
