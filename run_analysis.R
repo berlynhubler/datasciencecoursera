@@ -70,7 +70,7 @@ for (subject in 1:30) {
 tidy$Activity.Label <- ifelse(tidy$ACTIVITY == 1,"WALKING", ifelse(tidy$ACTIVITY == 2,"WALKING_UPSTAIRS", ifelse(tidy$ACTIVITY == 3,"WALKING_DOWNSTAIRS", ifelse(tidy$ACTIVITY == 4,"SITTING", ifelse(tidy$ACTIVITY == 5,"STANDING", ifelse(tidy$ACTIVITY == 6,"LAYING", "NA"))))))
 
 # Save final tidy data set as a .txt file
-write.table(tidy, "tidy.txt", row.name=FALSE)
+write.table(tidy, "./datasciencecoursera/tidy.txt", row.name=FALSE)
 
 
                                  
