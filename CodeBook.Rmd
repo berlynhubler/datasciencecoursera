@@ -10,9 +10,9 @@ This is an R Markdown document describing the data used for the Getting & Cleani
 # Label Descriptions
 
 
-### ACTIVITY
+### ACTIVITY & Activity.Type
 
-Describes the activity of each subject.
+Code for each activity and the Activity.Type associated with it.
 
 1 WALKING
 
@@ -30,6 +30,13 @@ Describes the activity of each subject.
 
 Each row identifies the subject who performed the activity for each window sample. Its range is 1-30. 
 
+
+### OTHER COLUMNS
+
+These describe the means and standard deviation for the measurements.
+
+tBodyAcc.mean.X, tBodyAcc.mean.Y, tBodyAcc.mean.Z
+tBodyAcc.std.X, tBodyAcc.std.Y, tBodyAcc.std.Z
 
 
 ```{r, echo=FALSE}
